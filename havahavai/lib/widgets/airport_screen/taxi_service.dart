@@ -38,13 +38,13 @@ class TaxiService extends StatelessWidget {
                 _buildServiceButton(
                     image: 'lib/assets/logo/uber.jpg', text: 'Uber'),
                 _buildServiceButton(
-                    image: 'lib/assets/logo/careem.png', text: 'Careem'),
+                    image: 'lib/assets/logo/careem.jpg', text: 'Careem'),
                 _buildServiceButton(
-                    image: 'lib/assets/logo/yango.png', text: 'Yango'),
+                    image: 'lib/assets/logo/yango.jpg', text: 'Yango'),
               ],
             ),
             _buildServiceButton(
-                image: 'lib/assets/logo/blacklane.png', text: 'Yango'),
+                image: 'lib/assets/logo/blacklane.jpg', text: 'Yango'),
           ],
         ),
       ),

@@ -62,9 +62,9 @@ flutter:
   assets:
     - lib/assets/walpapers/dubai_airport.jpg
     - lib/assets/logo/uber.jpg
-    - lib/assets/logo/careem.png
-    - lib/assets/logo/blacklane.png
-    - lib/assets/logo/yango.png
+    - lib/assets/logo/careem.jpg
+    - lib/assets/logo/blacklane.jpg
+    - lib/assets/logo/yango.jpg
     - lib/assets/images/terminalmap.png
         
   # An image asset can refer to one or more resolution-specific "variants", see
