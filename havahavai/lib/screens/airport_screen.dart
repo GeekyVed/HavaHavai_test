@@ -21,25 +21,25 @@ class AirportScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              PageTitle(
+              const PageTitle(
                 title: "Dubai Airport - DXB",
                 country: "Dubai",
                 desc: "United Arab Emirates",
                 flag: "🇦🇪",
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              InfoCard(),
-              SizedBox(
+              const InfoCard(),
+              const SizedBox(
                 height: 17,
               ),
-              ButtonPanel(),
-              SizedBox(
+              const ButtonPanel(),
+              const SizedBox(
                 height: 11,
               ),
-              TaxiService(),
-              SizedBox(
+              const TaxiService(),
+              const SizedBox(
                 height: 11,
               ),
               PublicTransport(),
@@ -69,7 +69,7 @@ class AirportScreen extends StatelessWidget {
                     onPressed: () {
                       // Your action here
                     },
-                    icon: Icon(Icons
+                    icon: const Icon(Icons
                         .directions), // Replace with the appropriate phone icon
                     label: Text('Get Direction'),
                     style: ElevatedButton.styleFrom(
@@ -84,7 +84,7 @@ class AirportScreen extends StatelessWidget {
                     onPressed: () {
                       // Your action here
                     },
-                    icon: Icon(
+                    icon: const Icon(
                         Icons.phone), // Replace with the appropriate phone icon
                     label: Text('Call airport'),
                     style: ElevatedButton.styleFrom(
